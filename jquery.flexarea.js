@@ -1,9 +1,12 @@
 /**
  *  FlexArea plugin for textarea
+ *  
+ *  @author		Nikola Zmachinsky <claus@zlog.ru>
+ *  @version	0.0.1
  */
 
 (function(jQuery){
-	jQuery.fn.ata = function(){
+	jQuery.fn.flexarea = function(){
 
 		return this.each(function(){
 
