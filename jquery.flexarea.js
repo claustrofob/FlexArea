@@ -2,7 +2,7 @@
  *  FlexArea plugin for textarea
  *  
  *  @author		Nikola Zmachinsky <claus@zlog.ru>
- *  @version	0.0.1
+ *  @version	0.0.2
  */
 
 (function(jQuery){
@@ -14,8 +14,7 @@
 				t = this;
 
 			var tVal = t.value;
-
-			tHeight = $t.height();
+			var tHeight = $t.height();
 
 			t.style.resize = 'none';
 			t.style.overflow = 'hidden';
