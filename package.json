@@ -1,0 +1,22 @@
+{
+    "name": "FlexArea",
+    "version": "0.0.2",
+    "title": "jQuery.flexarea()",
+    "author": {
+        "name": "Nikola Zmachinsky",
+        "url": "https://github.com/claustrofob"
+    },
+    "dependencies": {
+        "jquery": "1"
+    },
+    "description": "The very simple autogrow plugin for textarea",
+    "keywords": [
+        "textarea",
+        "autogrow",
+        "resize"
+    ],
+    "homepage": "https://github.com/claustrofob/FlexArea",
+    "files": [
+        "jquery.flexarea.js"
+    ]
+}
