@@ -34,7 +34,7 @@
 			//so we have to adjust scrollHeight value
 			var vertAdjust = H1*2 - H2;
 
-			$t.bind('input propertychange', function(){
+			$t.bind('input.flexarea propertychange.flexarea', function(){
 				if (tVal != t.value){
 					tVal = t.value;
 					t.style.height = tHeight+'px';
@@ -46,7 +46,7 @@
 					}
 					t.scrollTop = 0;
 				}
-			}).trigger('input');
+			}).trigger('input.flexarea');
 
 		});
 

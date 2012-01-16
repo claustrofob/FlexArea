@@ -7,7 +7,7 @@
         "url": "https://github.com/claustrofob"
     },
     "dependencies": {
-        "jquery": "1"
+        "jquery": "1.2"
     },
     "description": "The very simple autogrow plugin for textarea",
     "keywords": [

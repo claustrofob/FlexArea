@@ -1,6 +1,6 @@
 The very simple and powerful jquery autogrow plugin.
 
-Depends on jQuery(any version).
+Depends on jQuery >= 1.2
 
 Usage: $('textarea').flexarea();
 
